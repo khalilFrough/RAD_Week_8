@@ -11,6 +11,9 @@ gem 'bcrypt','3.1.12'
 # Use sqlite3 as the database for Active Record
 # testing gem 
 gem 'rails-controller-testing'
+# well-paginate
+gem 'will_paginate',           '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
