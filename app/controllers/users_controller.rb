@@ -7,7 +7,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page], per_page:5)
+    @users = User.paginate(page: params[:page]) #if you want to specifiy number of user use this , per_page:5 after page
   end 
  
   def show 

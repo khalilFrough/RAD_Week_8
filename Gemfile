@@ -8,6 +8,7 @@ gem 'bootstrap-sass','3.3.7'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 # using bcrypt for password hashing
 gem 'bcrypt','3.1.12'
+gem 'faker', '2.1.2'
 # Use sqlite3 as the database for Active Record
 # testing gem 
 gem 'rails-controller-testing'
